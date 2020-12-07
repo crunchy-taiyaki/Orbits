@@ -26,5 +26,13 @@
 	<Files>
 		<Filter Name="Header Files" Filter="fi;fd;h;inc"/>
 		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"/>
-		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl"/></Files>
+		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl">
+		<File RelativePath=".\constants.f90"/>
+		<File RelativePath=".\newton_module.f90"/>
+		<File RelativePath=".\ODE_solver.f90"/>
+		<File RelativePath=".\orbit_calculator.f90"/>
+		<File RelativePath=".\potentials.f90"/>
+		<File RelativePath=".\precision.f90"/>
+		<File RelativePath=".\SLAU_solver.f90"/>
+		<File RelativePath=".\test_orbit_calculator.f90"/></Filter></Files>
 	<Globals/></VisualStudioProject>
